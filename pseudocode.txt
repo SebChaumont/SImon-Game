@@ -1,0 +1,25 @@
+SIMON GAME.
+Gameplay rules: 
+1-Game Start
+  //TODO: Player presse any button on the keyboard.
+  //TODO: Fires up main functions.
+  //TODO: (Re)set player score to 0  
+2-Algorithm choose a random number from 0 to 3 (or color)
+  // Using the Math.random method, select a number from 0 to 3. DONE
+  // Store number at the end of its array. DONE
+  // Based on the numbers in the array, animate (+sound) the corresponding buttons on the page. DONE
+  //todo Wait for player input 
+3-Player need to input the same sequence that the algorithm declared. 
+  //// Player tries to replicate the sequence the algorithm just played by pressing on the buttons that was animated.
+  //// Animation (+sound) on button click (using the mouse, v.1) is played to feedback player that action has been registered. 
+  //// Player input is stored into player's array.
+  ** (what if the player simply never press on a button... should there be a timer?)
+4-Player sequence is verified against Algo sequence.
+  //todo: Start by dertermining if the length of the two arrays are the same. 
+  //todo:  Using a nested for loop, it is possible to determine if both array are the same.
+  ** (is there a built in method that does just that?)
+  //todo: If evaluated as true, add 1 to player score and go back to step 2
+  ////: If evaluated as false, go too step 5
+5-Game Over.
+  ////: Change background color of page to a different color.
+  ////: Display "GAME OVER, Press any key to restart" to player
